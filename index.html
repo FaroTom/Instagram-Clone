@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeAllDay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body onload="render()">
+    <div class="header">
+        <img class="logo" src="img/Logo.png">
+        <input class="headerInput" placeholder="Suchen..." id="search" onkeydown="searchauthor()">
+        <div class="headerIcons"> <img src="img/home.png"> <img src="img/arrow.png"> <img src="img/compass.png"> <img src="img/heart.png">  <img src="img/profile.png"> </div>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="contentContainer" id="posts">
+            
+        </div>
+
+        <div class="sidebar">
+            <div class="ownProfile">
+                <img src="img/profile.png">
+                <div> <p class="bold">Max_Mustermann</p> <p>Max Mustermann</p> </div>
+                <a class="bold" href="#">Wechseln</a>
+            </div>
+
+            <div class="vorschläge">
+                <p class="lightgray">Vorschläge für dich</p> <a class="font-size12" href="#">Alle anzeigen</a>
+            </div>
+
+            <div class="otherProfile">
+                <img src="img/profile1.jpg">
+                <div> <p class="bold">Laura Barthols</p> </div>
+                <a class="bold" href="#">Abonnieren</a>
+            </div>
+
+            <div class="otherProfile">
+                <img src="img/profile2.jpg">
+                <div> <p class="bold">Lorenz Hain</p> </div>
+                <a class="bold" href="#">Abonnieren</a>
+            </div>
+
+            <div class="otherProfile">
+                <img src="img/profile3.jpg">
+                <div> <p class="bold">Sarah Makel</p> </div>
+                <a class="bold" href="#">Abonnieren</a>
+            </div>
+
+            <div class="otherProfile">
+                <img src="img/profile4.jpg">
+                <div> <p class="bold">Maike Jung</p> </div>
+                <a class="bold" href="#">Abonnieren</a>
+            </div>
+
+            <div class="credits">
+                Created my logo at LogoMakr.com/app
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    
+</body>
+
+</html>
